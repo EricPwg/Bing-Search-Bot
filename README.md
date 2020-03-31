@@ -24,13 +24,13 @@ I will post the code with both ways of search, search by text and search by imag
 2. Search and create `Bing Search ` with F1 pricing tier
 3. Copy `Key1` to the clipboard
     <p align = "center">
-    <img src="./images/copy key1.jpg" width="50%">
+    <img src="./image/copy key1.jpg" width="50%">
     </p>
 ### Test the Bot Locally
 4. Open `config.py`
 5. Paste the `key1`
     <p align = "center">
-    <img src="./images/paste key1.jpg" width="50%">
+    <img src="./image/paste key1.jpg" width="50%">
     </p>
 6.  Run the following command in terminal
     ```powershell
@@ -40,7 +40,7 @@ I will post the code with both ways of search, search by text and search by imag
 8.  Key in the following url and Click **Connect**
     > `http://localhost:3978/api/messages`
     <p align = "center">
-    <img src="./images/key in the URL.jpg" width="40%">
+    <img src="./image/key in the URL.jpg" width="40%">
     </p>
 ### Deploy a bot to Azure
 9.  Run the command in Azure CLI
@@ -56,13 +56,13 @@ I will post the code with both ways of search, search by text and search by imag
 10. Open Visual Studio Code
 11. Deploy the bot to the App Service you just created
     <p align = "center">
-    <img src="./images/deploy the bot.jpg" width="40%">
+    <img src="./image/deploy the bot.jpg" width="40%">
     </p>
 ### Test the Bot on App Service
 12. After the deployment completed, go to [Azure Portal](https://portal.azure.com/#home) and search the `Bot Services`
 13. Click `Test in Web Chat`
     <p align = "center">
-    <img src="./images/test in web chat.jpg" width="70%">
+    <img src="./image/test in web chat.jpg" width="70%">
     </p>
 
 
