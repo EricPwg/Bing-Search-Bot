@@ -48,9 +48,9 @@ I will post the code with both ways of search, search by text and search by imag
     * ```powershell
         az ad app create --display-name "displayName" --password "AtLeastSixteenCharacters_0" --available-to-other-tenants
         ```
-    >>>Warning 1 : Please make sure you are in the right directory of `template-with-preexisting-rg.json`
+    >Warning 1 : Please make sure you are in the right directory of `template-with-preexisting-rg.json`
 
-    >>>Warning 2 : The Resource Group for Bing Search service cannot be used here, otherwise, you will fail to create a Python-based App Service. Create another one !!
+    >Warning 2 : The Resource Group for Bing Search service cannot be used here, otherwise, you will fail to create a Python-based App Service. Create another one !!
     * ```powershell
         az group deployment create --resource-group "<name-of-resource-group>" --template-file "template-with-preexisting-rg.json" --parameters appId="<app-id-from-previous-step>" appSecret="<password-from-previous-step>" botId="<id or bot-app-service-name>" newWebAppName="<bot-app-service-name>" newAppServicePlanName="<name-of-app-service-plan>" appServicePlanLocation="<region-location-name>"
         ```
